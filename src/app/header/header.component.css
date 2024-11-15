@@ -2,15 +2,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px 15px;
-    background: #419152;
-    background: -moz-linear-gradient(top, #419152 0%, #295C34 100%);
-    background: -webkit-linear-gradient(top, #419152 0%, #295C34 100%);
-    background: linear-gradient(to bottom, #419152 0%, #295C34 100%);   
+    padding: 10px 15px;
+    background: white;  
 }
 
 .navbar-title h1 {
-    color: white;
+    color: #4a4a4a;
     margin: 0;
 }
 
@@ -29,4 +26,8 @@
     color: white;
     font-size: 18px;
     padding: 5px 10px;
+}
+
+.logo {
+    
 }
