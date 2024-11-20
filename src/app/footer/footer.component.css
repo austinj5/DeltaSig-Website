@@ -4,7 +4,7 @@
     height: 15px; 
     width: 100%;
     position: absolute;
-    bottom: 78px;
+    bottom: 120px;
     left: 0;
 }
 
@@ -12,10 +12,17 @@
     position: absolute;
     background-color: #007A33;
     display: flex;
+    height:120px;
     align-items: center;
     bottom: 0; 
     left: 0;
     width: 100%;
     justify-content: space-between;
     padding: 10px 15px;
+    color:white;
+}
+
+h2 {
+    padding-left: 40px;
+    text-shadow: #2a2a2a 1px 1px 0;
 }
