@@ -2,8 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 15px;
-    background: white;  
+    background: #ffffff;  
 }
 
 .navbar-title h1 {
@@ -14,7 +13,7 @@
 .navbar-links {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding-right: 100px;
     display: flex;
 }
 
@@ -23,11 +22,15 @@
 }
 
 .navbar-links li a {
-    color: white;
+    color:#4a4a4a;
     font-size: 18px;
     padding: 5px 10px;
+    text-decoration: none;
 }
 
 .logo {
-    
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
 }
+
