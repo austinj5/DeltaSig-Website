@@ -11,7 +11,18 @@
     </div>
     <ul class="navbar-links">
       <li><a routerLink="/" routerLinkActive="active">Home</a></li>
-      <li><a routerLink="/about" routerLinkActive="active">About</a></li>
+      <!-- <li><a routerLink="/about" routerLinkActive="active">About</a></li> -->
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle">About</a>
+        <ul class="dropdown-menu">
+          <li><a routerLink="/about/fraternity" routerLinkActive="active">About Our Fraternity</a></li>
+          <li><a routerLink="/about/chapter" routerLinkActive="active">About Our Chapter</a></li>
+          <li><a routerLink="/about/recruitment" routerLinkActive="active">Recruitment</a></li>
+        </ul>
+      </li>
+      <li><a>News</a></li>
+      <li><a>Donate</a></li>
+      
       
     </ul>
 </nav>

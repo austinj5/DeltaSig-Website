@@ -1,3 +1,12 @@
+
+/* logo */
+.logo {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+}
+
+/* navbar */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -15,10 +24,12 @@
     margin: 0;
     padding-right: 100px;
     display: flex;
+    align-items: center;
 }
 
 .navbar-links li {
     margin-right: 20px;
+    position:  relative;
 }
 
 .navbar-links li a {
@@ -28,9 +39,35 @@
     text-decoration: none;
 }
 
-.logo {
-    display: flex;
-    align-items: center; 
-    justify-content: center; 
+/* Dropdown menu */
+.navbar-links .dropdown-menu {
+    list-style-type: none;
+    display: none; /* Initially hidden */
+    position: absolute; /* Positioned relative to <li> */
+    background-color: #FFFEF6;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px; 
+    z-index: 10; /* Ensures it appears above other elements */
+    min-width: 150px;
+}
+
+.navbar-links .dropdown:hover .dropdown-menu {
+    display: block; /* Show dropdown on hover */
+}
+
+.navbar-links .dropdown-menu li {
+    padding: 10px 15px;
+}
+
+.navbar-links .dropdown-menu li a {
+    color: #4a4a4a;
+    font-size: 14px;
+    text-decoration: none;
+    display: block;
+}
+
+.navbar-links .dropdown-menu li a:hover {
+    background-color: rgba(4, 119, 52, 0.2);
+    border-radius: 5px;
 }
 
