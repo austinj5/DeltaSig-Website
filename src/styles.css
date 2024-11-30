@@ -11,3 +11,19 @@ body{
     font-family: "Montserrat", sans-serif;
     color: #4a4a4a;
 }
+
+.segment {
+    display: block;
+    width: 100%;
+    padding: 20px 150px;
+    margin-bottom: 60px;
+}
+
+.segment-g {
+    background-color: #007A33;
+    color: white;
+    display: block;
+    width: 100%;
+    padding: 20px 150px;
+    margin-bottom: 60px;
+}
